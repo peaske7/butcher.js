@@ -1,0 +1,9 @@
+node_modules
+.parcel-cache
+
+dist
+
+.idea
+
+# TODO: remove after publishing npm package
+examples
