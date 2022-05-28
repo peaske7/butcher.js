@@ -1,4 +1,6 @@
 examples
+coverage
+tests
 
 .idea
 
@@ -7,3 +9,4 @@ examples
 .eslintignore
 pnpm-lock.yaml
 tsconfig.json
+jest.config.json
