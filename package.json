@@ -1,7 +1,7 @@
 {
   "name": "butcherjs",
   "version": "0.1.0",
-  "description": "",
+  "description": "Another tiny state management library.",
   "main": "index.js",
   "scripts": {
     "build": "tsc"
@@ -9,7 +9,7 @@
   "keywords": [
     "typescript"
   ],
-  "author": "",
+  "author": "Haruki Jay Shimada",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/DrPoppyseed/butcherjs/issues"
