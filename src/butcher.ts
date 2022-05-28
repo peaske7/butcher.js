@@ -32,7 +32,7 @@ export const butcher = <M extends Record<string, any>>({
 }): Butcher<M> => {
   const butchered: Butch<M> = meat
 
-  for (const meatCut in meat) {
+  Object.keys(meat).forEach(meatCut => {
     const internalRef: keyof Ref<M> = `__${meatCut}`
     butchered[internalRef] = meat[meatCut]
 
@@ -43,14 +43,16 @@ export const butcher = <M extends Record<string, any>>({
         butchered[internalRef] = value
         station.dispatchEvent(
           new CustomEvent<CutDetail>(cutType, {
-            detail: { meatCut, value }
+            detail: {
+              meatCut,
+              value
+            }
           })
         )
       },
       get: () => butchered[internalRef]
     })
-  }
-
+  })
   ;(butchered as Butcher<M>).__config = {
     name,
     station

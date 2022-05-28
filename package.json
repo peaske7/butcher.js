@@ -1,16 +1,31 @@
 {
-  "name": "butcher",
+  "name": "butcherjs",
   "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "tsc"
   },
-  "keywords": ["typescript"],
+  "keywords": [
+    "typescript"
+  ],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DrPoppyseed/butcherjs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DrPoppyseed/butcherjs.git"
+  },
   "devDependencies": {
     "eslint": "^8.16.0",
+    "eslint-config-prettier": "^8.5.0",
     "prettier": "^2.6.2",
-    "typescript": "^4.7.2"
+    "typescript": "^4.7.2",
+    "@typescript-eslint/eslint-plugin": "^5.26.0",
+    "@typescript-eslint/parser": "^5.26.0",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0"
   }
 }

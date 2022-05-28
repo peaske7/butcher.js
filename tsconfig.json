@@ -6,7 +6,8 @@
     "moduleResolution": "node",
     "noUncheckedIndexedAccess": true,
     "exactOptionalPropertyTypes": true,
-    "baseUrl": "."
+    "baseUrl": ".",
+    "outDir": "dist"
   },
   "include": [
     "src/**/*",
@@ -14,6 +15,7 @@
   ],
   "exclude": [
     "node_modules",
-    "dist"
+    "dist",
+    "examples"
   ]
 }
