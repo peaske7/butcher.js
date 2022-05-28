@@ -4,6 +4,3 @@ node_modules
 dist
 
 .idea
-
-# TODO: remove after publishing npm package
-examples
