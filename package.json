@@ -1,6 +1,6 @@
 {
   "name": "butcherjs",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Another tiny state management library.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -19,6 +19,7 @@
     "type": "git",
     "url": "https://github.com/DrPoppyseed/butcherjs.git"
   },
+  "homepage": "https://github.com/DrPoppyseed/butcherjs",
   "devDependencies": {
     "eslint": "^8.16.0",
     "eslint-config-prettier": "^8.5.0",
