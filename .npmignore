@@ -1,1 +1,9 @@
 examples
+
+.idea
+
+.prettierrc
+.eslintrc
+.eslintignore
+pnpm-lock.yaml
+tsconfig.json

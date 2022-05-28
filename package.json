@@ -2,7 +2,8 @@
   "name": "butcherjs",
   "version": "0.1.0",
   "description": "Another tiny state management library.",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc"
   },
