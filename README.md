@@ -5,10 +5,10 @@
 [![Registry](https://img.shields.io/npm/v/butcherjs?style=flat-square)](https://www.npmjs.com/package/butcherjs)
 [![Open in CodeSandbox](https://img.shields.io/badge/Open%20demo%20in-CodeSandbox-blue?style=flat-square&logo=codesandbox)](https://codesandbox.io/s/youthful-curran-nsmhes)
 
-Butcher is a minimalistic 1D state management library inspired
+Butcher is a minimalistic state management library inspired
 by [beedle](https://github.com/hankchizljaw/beedle)
 , [zustand](https://github.com/pmndrs/zustand),
-and a Typescript + Modern derivative
+and an expanded derivative
 of [mutilator](https://gist.github.com/Heydon/9de1a8b55dd1448281fad013503a5b7a) (
 hence the name "butcher"). Butcher excels when you want to handle
 relatively simple states using vanilla TS/JS in the browser. If you want
