@@ -28,19 +28,19 @@ afterEach(() => {
   jest.clearAllMocks()
 })
 
-test('is state accessible', () => {
+test('is simple state accessible', () => {
   countSpan.innerHTML = `${countTracker.count}`
   expect(countSpan.innerHTML).toBe('0')
 })
 
-test('is state interactive', () => {
+test('is simple state interactive', () => {
   // update state
   countTracker.count = 2
   countSpan.innerHTML = `${countTracker.count}`
   expect(countSpan.innerHTML).toBe('2')
 })
 
-test('does listen callback react to state changes', () => {
+test('does listen callback react to simple state changes', () => {
   countSpan.innerHTML = '0'
 
   // listen to state change
