@@ -4,6 +4,7 @@
 [![License](https://img.shields.io/github/license/drpoppyseed/butcherjs?style=flat-square)](https://github.com/DrPoppyseed/butcherjs/blob/main/LICENSE)
 [![Registry](https://img.shields.io/npm/v/butcherjs?style=flat-square)](https://www.npmjs.com/package/butcherjs)
 [![Open in CodeSandbox](https://img.shields.io/badge/Open%20demo%20in-CodeSandbox-blue?style=flat-square&logo=codesandbox)](https://codesandbox.io/s/youthful-curran-nsmhes)
+[![Open in Codeanywhere](https://img.shields.io/badge/Open%20in-Codeanywhere-blue?style=flat-square&logo=codeanywhere)](https://app.codeanywhere.com/#https://github.com/peaske7/butcher.js/blob/144da42203c692361a3f88b3563bfa16afc5ddb8/README.md)
 
 Butcher is a minimalistic state management library inspired
 by [beedle](https://github.com/hankchizljaw/beedle)
